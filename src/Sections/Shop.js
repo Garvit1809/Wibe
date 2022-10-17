@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+
+
 const Section = styled.div`
   min-height: 100vh;
   height: auto;
@@ -65,7 +67,7 @@ justify-content: flex-start;
 
 const Shop = () => {
   return (
-    <Section>
+    <Section data-scroll id="shop" >
       <Title data-scroll data-scroll-speed="-1">
         New Collection
       </Title>
